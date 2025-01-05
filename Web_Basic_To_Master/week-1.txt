@@ -1,0 +1,22 @@
+- web development:
+
+	- web: a system that have documents and resources are interconnected which we access through an internet.  
+
+	- development: web development is developing a website or web app.
+		- website: static control 
+			 - read-only like- blogs/wiki
+		- web app: dynamic
+
+- web application:
+	- layer which use to design:
+		- frontend: html/css/Js + React
+		- backend: brain & web app
+		- database: No sql/ sql
+
+- Full stack web development:
+	- frontend + backend + database
+
+- MERN: Mongo Db + Express Js + React Js + Node Js
+
+  
+	
