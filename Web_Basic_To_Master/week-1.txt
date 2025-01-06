@@ -1,3 +1,5 @@
+-> Day-1:
+
 - web development:
 
 	- web: a system that have documents and resources are interconnected which we access through an internet.  
@@ -16,7 +18,41 @@
 - Full stack web development:
 	- frontend + backend + database
 
-- MERN: Mongo Db + Express Js + React Js + Node Js
+- MERN: Mongo Db + Express Js + React Js + Node Js.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-> Day-2:
+
+- Network: more resources are inter connected with each other it called Network.
+it like computer, mobile, printer, laptop connected with each other create an system.
+
+	- local scale network which we called an LAN (Local Area Network).
+	
+ 	- network which is connected on the city or states level this type of  the  
+	network is called MAN.
+
+	- the network which connect the country to country or the entire world is
+	called WAN.
+
+- Internet: internet which an global system which we use to connect the network or it is called network of network.
+
+	- WWW: World wide web subset of internet network where the document are interconnected which we can access through an internet.
+
+- Ip address: if two system want to connect and share document or resource through internet so for that we need ip address for to share an resource to other device.
+
+- Browser: browser is an tool or client side which we use to access doc, recourses, weblink, webpage through internet on browser like chrome, Microsoft edge, firefox.
+
+- Browser Engine: it is the core component of a web browser that renders web pages that translates web code into a visual and interactive web page.
+
+- client/server: Client/Server refers to a model where tasks or workloads are distributed between two entities:
+
+	- Client: A device or application (like a web browser) that requests 		services or resources.
+	- Server: A central system that processes requests, manages resources, and 	responds to the client.
+
+- DNS: DNS is an internet service that translates domain names into IP addresses, enabling users to access websites using easy-to-remember names instead of numerical addresses.
+
+
+
 
   
-	
