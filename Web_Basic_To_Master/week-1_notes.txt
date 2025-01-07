@@ -20,7 +20,7 @@
 
 - MERN: Mongo Db + Express Js + React Js + Node Js.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
 
 -> Day-2:
 
@@ -52,6 +52,39 @@ it like computer, mobile, printer, laptop connected with each other create an sy
 
 - DNS: DNS is an internet service that translates domain names into IP addresses, enabling users to access websites using easy-to-remember names instead of numerical addresses.
 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+-> Day - 3:
+
+- what is internet: inter -> Interconnected
+		    net -> Network
+
+- ISP - Internet Service Provider.
+
+- History: sharing data source to destination by ARPAnet which share in packets in 1960.
+	- 1980 -> DNS // www
+	- 1990 -> email
+	- 2000 -> Facebook / mobile 
+
+- type of request methods are get, post etc..
+
+- packets: if i am sharing an big size to other device but it not share entire file it break the file into small of chunks and it share chunk to the device which receiver will receive the file in the chunks and rearrange them.
+
+- protocol: an set of rules.
+	- smtp
+	- ftp
+	- http
+
+- Types of internet devices:
+	1. Switch: A device that connects multiple devices within a network, allowing them to communicate.
+	2. Hub: A basic device that connects multiple devices in a network but doesn't manage traffic intelligently.
+	3. Router: A device that connects multiple devices to the internet and manages traffic between them.
+	4. Modem: A device that converts analog signals (from your ISP) into digital signals and vice versa, enabling internet access.
+
+
+
+ 
 
 
 
