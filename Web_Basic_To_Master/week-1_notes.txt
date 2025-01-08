@@ -83,9 +83,24 @@ it like computer, mobile, printer, laptop connected with each other create an sy
 	4. Modem: A device that converts analog signals (from your ISP) into digital signals and vice versa, enabling internet access.
 
 
+--------------------------------------------------------------------------------------------------------------------------------------
 
+-> Day-4:
+
+- Html: Hyper text markup language which use we create a web pages.
  
+- html has tag like:
+	- <html>: every code will be writen in this tag <html></html>/
+	- <head>: The <head> tag is a container for metadata
+	- <title>: title shows the name of the web page.
+	- <body>: body part where the web page content code under the body. 
+	- <p>: for writing paragraph.
+	- <marquee>: using this tag we cam show the moving text left to right.
+	- <table>: show table data in web page. 
+	- <form>: create form in the web page.
+	- <h1>: heading tag.
 
+- <!DOCTYPE html> : it display that writen code is in html 5.
 
-
+- <!-- <a href="https://www.example.com">Visit Example.com</a> -->: this line is comment which use for documention and it get ignored.
   
