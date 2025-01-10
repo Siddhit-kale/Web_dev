@@ -103,4 +103,46 @@ it like computer, mobile, printer, laptop connected with each other create an sy
 - <!DOCTYPE html> : it display that writen code is in html 5.
 
 - <!-- <a href="https://www.example.com">Visit Example.com</a> -->: this line is comment which use for documention and it get ignored.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+-> Day-5:
+
+- Tags: tag is a markup entity, which use we can provide structure, formatting, semantics. 
+
+- 1. Semantics Tags
+These tags describe the meaning of the content they contain, improving readability and accessibility:
+
+	<header>: Defines a page or section header.
+	<nav>: Represents navigation links.
+	<main>: Specifies the main content of a document.
+	<article>: Represents a standalone piece of content.
+	<footer>: Defines a page or section footer.
+
+- 2. Structure Tags
+These tags define the layout or structure of a webpage:
+
+	<html>: Root element of an HTML document.
+	<head>: Contains metadata like title, links, and scripts.
+	<body>: Contains the content displayed on the webpage.
+	<section>: Groups related content in a document.
+	<div>: A generic container for grouping elements.
+
+- 3. Formatting Tags
+These tags style and format the text or content:
+
+	<b>: Makes text bold.
+	<i>: Makes text italic.
+	<u>: Underlines text.
+	<sup>: Superscript text.
+	<sub>: Subscript text.
+
+- create an email link in html: 
+<a href="mailto:email@example.com">Send Email</a>
+
+- create a link to make a phone call:
+<a href="tel:+919876543210">Call Customer Support</a>
+
+
   
