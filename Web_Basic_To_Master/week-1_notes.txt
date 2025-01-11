@@ -145,4 +145,48 @@ These tags style and format the text or content:
 <a href="tel:+919876543210">Call Customer Support</a>
 
 
+--------------------------------------------------------------------------------------------------------------------------------------
+
+-> Day-6:
+
+html shortcut:
+
+-> Common Element Shortcuts:
+
+- HTML Boilerplate Shortcut: !
+
+- Common Element Shortcuts: div.my-class
+
+- Nesting elements: div>ul>li*3
+
+- Adding multiple classes or IDs: div.class1.class2
+
+- Adding attributes: input[type="text" placeholder="Enter your name"]
+
+
+-> Combine Multiple Elements:
+
+- Header with navigation: header>nav>ul>li*3>a
+
+- Form with inputs: form>label+input[type="text"]+button[type="submit"]
+
+-> How to Enable Emmet:
+In most editors like VS Code, Emmet is enabled by default. Start typing and press Tab to expand the shortcuts.
+
+- <div>: A generic container used to group content for styling or layout purposes.
+
+- class: An attribute used to assign one or more CSS classes to an element for styling or scripting purposes.
+
+- Id: An attribute used to assign a unique identifier to an element for styling, scripting, or linking purposes.
+
+- Convert a Block Element into an Inline Element:
+
+	- <div class="block-to-inline">This is now inline!</div>
+
+	- .block-to-inline {
+    	  display: inline;
+	  }
+
+
+
   
