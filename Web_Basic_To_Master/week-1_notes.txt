@@ -188,5 +188,33 @@ In most editors like VS Code, Emmet is enabled by default. Start typing and pres
 	  }
 
 
+--------------------------------------------------------------------------------------------------------------------------------------
+
+-> Day-7:
+
+-> what is table?
+A table in HTML is used to organize and display data in rows and columns, similar to a spreadsheet. It's created using specific tags and can include attributes to control its appearance and behavior.
 
   
+-> tags in the table:
+= <table>: Defines the table.
+= <tr>: Defines a row within the table.
+= <th>: Defines a header cell (usually bold and centered).
+= <td>: Defines a data cell within the table.
+= <caption>: Provides a title or description for the table (optional).
+= <thead>: Groups header rows in the table (optional).
+= <tbody>: Groups the main body rows of the table (optional).
+= <tfoot>: Groups footer rows in the table (optional).
+
+-> common table attributes:
+- border: Adds a border around the table and cells
+- cellspacing: Sets space between table cells
+- cellpadding: Sets space inside each table cell
+- width: Specifies the width of the table or cells
+- height: Specifies the height of the table or cells
+- align: Aligns the table to left, center, or right
+- colspan: Merges multiple columns in a cell
+- rowspan: Merges multiple rows in a cell
+- style: Adds inline CSS for styling
+
+-> what is cell: A cell is the basic building block of a table in HTML.

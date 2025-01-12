@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table border="1">
+
+        <thead>
+            <th>student id</th>
+            <th>student name</th>
+            <th>gender</th>
+            <th>age</th>
+        </thead>
+
+        <tbody>
+            <tr>
+            <td>1</td>
+            <td>siddhu</td>
+            <td>male</td>
+            <td>15</td>
+            </tr>
+            <tr>
+            <td>1</td>
+            <td>siddhu</td>
+            <td>male</td>
+            <td rowspan="3">15</td>
+            </tr>
+            <tr>
+            <td>1</td>
+            <td>siddhu</td>
+            <td>male</td>
+            <!-- <td>15</td> -->
+            </tr>
+            <tr>    
+            <td>1</td>
+            <td>siddhu</td>
+            <td>male</td>
+            <!-- <td>15</td> -->
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+
+    <table border="1">
+
+        <thead>
+            <th>column 1</th>
+            <th>column 2</th>
+            <th>column 3</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">row 1, cell 1</td>
+                <td>row 1, cell 2</td>
+                <td>row 1, cell 3</td>
+            </tr>
+            <tr>
+                <td>row 2, cell 2</td>
+                <td>row 2, cell 3</td>
+            </tr>
+            <tr>
+                <td colspan="3">row 3, cell 1</td>
+                <!-- <td>row 3, cell 2</td>
+                <td>row 3, cell 3</td> -->
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <br>
+    <br>
+
+    <table border="1">
+
+        <thead>
+            <th>No.</th>
+            <th>full name</th>
+            <th>position</th>
+            <th>salary</th>
+            <th>type</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>bill gates</td>
+                <td>founder microsoft</td>
+                <td>$1000</td>
+                <td rowspan="4">company founder</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>steve jobs</td>
+                <td>founder apple</td>
+                <td>$2000</td>
+                <!-- <td>company founder</td> -->
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>mark zuckerberg</td>
+                <td>founder facebook</td>
+                <td>$3000</td>
+                <!-- <td>company founder</td> -->
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>jeff bezos</td>
+                <td>founder amazon</td>
+                <td>$4000</td>
+                <!-- <td>company founder</td> -->
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td align="center" colspan="3">total</td>
+                <td>$10000</td>
+        </tfoot>
+    </table>
+
+
+</body>
+</html>
