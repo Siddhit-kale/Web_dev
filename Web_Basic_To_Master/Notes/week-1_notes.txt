@@ -1,0 +1,220 @@
+-> Day-1:
+
+- web development:
+
+	- web: a system that have documents and resources are interconnected which we access through an internet.  
+
+	- development: web development is developing a website or web app.
+		- website: static control 
+			 - read-only like- blogs/wiki
+		- web app: dynamic
+
+- web application:
+	- layer which use to design:
+		- frontend: html/css/Js + React
+		- backend: brain & web app
+		- database: No sql/ sql
+
+- Full stack web development:
+	- frontend + backend + database
+
+- MERN: Mongo Db + Express Js + React Js + Node Js.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+-> Day-2:
+
+- Network: more resources are inter connected with each other it called Network.
+it like computer, mobile, printer, laptop connected with each other create an system.
+
+	- local scale network which we called an LAN (Local Area Network).
+	
+ 	- network which is connected on the city or states level this type of  the  
+	network is called MAN.
+
+	- the network which connect the country to country or the entire world is
+	called WAN.
+
+- Internet: internet which an global system which we use to connect the network or it is called network of network.
+
+	- WWW: World wide web subset of internet network where the document are interconnected which we can access through an internet.
+
+- Ip address: if two system want to connect and share document or resource through internet so for that we need ip address for to share an resource to other device.
+
+- Browser: browser is an tool or client side which we use to access doc, recourses, weblink, webpage through internet on browser like chrome, Microsoft edge, firefox.
+
+- Browser Engine: it is the core component of a web browser that renders web pages that translates web code into a visual and interactive web page.
+
+- client/server: Client/Server refers to a model where tasks or workloads are distributed between two entities:
+
+	- Client: A device or application (like a web browser) that requests 		services or resources.
+	- Server: A central system that processes requests, manages resources, and 	responds to the client.
+
+- DNS: DNS is an internet service that translates domain names into IP addresses, enabling users to access websites using easy-to-remember names instead of numerical addresses.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+-> Day - 3:
+
+- what is internet: inter -> Interconnected
+		    net -> Network
+
+- ISP - Internet Service Provider.
+
+- History: sharing data source to destination by ARPAnet which share in packets in 1960.
+	- 1980 -> DNS // www
+	- 1990 -> email
+	- 2000 -> Facebook / mobile 
+
+- type of request methods are get, post etc..
+
+- packets: if i am sharing an big size to other device but it not share entire file it break the file into small of chunks and it share chunk to the device which receiver will receive the file in the chunks and rearrange them.
+
+- protocol: an set of rules.
+	- smtp
+	- ftp
+	- http
+
+- Types of internet devices:
+	1. Switch: A device that connects multiple devices within a network, allowing them to communicate.
+	2. Hub: A basic device that connects multiple devices in a network but doesn't manage traffic intelligently.
+	3. Router: A device that connects multiple devices to the internet and manages traffic between them.
+	4. Modem: A device that converts analog signals (from your ISP) into digital signals and vice versa, enabling internet access.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+-> Day-4:
+
+- Html: Hyper text markup language which use we create a web pages.
+ 
+- html has tag like:
+	- <html>: every code will be writen in this tag <html></html>/
+	- <head>: The <head> tag is a container for metadata
+	- <title>: title shows the name of the web page.
+	- <body>: body part where the web page content code under the body. 
+	- <p>: for writing paragraph.
+	- <marquee>: using this tag we cam show the moving text left to right.
+	- <table>: show table data in web page. 
+	- <form>: create form in the web page.
+	- <h1>: heading tag.
+
+- <!DOCTYPE html> : it display that writen code is in html 5.
+
+- <!-- <a href="https://www.example.com">Visit Example.com</a> -->: this line is comment which use for documention and it get ignored.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+-> Day-5:
+
+- Tags: tag is a markup entity, which use we can provide structure, formatting, semantics. 
+
+- 1. Semantics Tags
+These tags describe the meaning of the content they contain, improving readability and accessibility:
+
+	<header>: Defines a page or section header.
+	<nav>: Represents navigation links.
+	<main>: Specifies the main content of a document.
+	<article>: Represents a standalone piece of content.
+	<footer>: Defines a page or section footer.
+
+- 2. Structure Tags
+These tags define the layout or structure of a webpage:
+
+	<html>: Root element of an HTML document.
+	<head>: Contains metadata like title, links, and scripts.
+	<body>: Contains the content displayed on the webpage.
+	<section>: Groups related content in a document.
+	<div>: A generic container for grouping elements.
+
+- 3. Formatting Tags
+These tags style and format the text or content:
+
+	<b>: Makes text bold.
+	<i>: Makes text italic.
+	<u>: Underlines text.
+	<sup>: Superscript text.
+	<sub>: Subscript text.
+
+- create an email link in html: 
+<a href="mailto:email@example.com">Send Email</a>
+
+- create a link to make a phone call:
+<a href="tel:+919876543210">Call Customer Support</a>
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+-> Day-6:
+
+html shortcut:
+
+-> Common Element Shortcuts:
+
+- HTML Boilerplate Shortcut: !
+
+- Common Element Shortcuts: div.my-class
+
+- Nesting elements: div>ul>li*3
+
+- Adding multiple classes or IDs: div.class1.class2
+
+- Adding attributes: input[type="text" placeholder="Enter your name"]
+
+
+-> Combine Multiple Elements:
+
+- Header with navigation: header>nav>ul>li*3>a
+
+- Form with inputs: form>label+input[type="text"]+button[type="submit"]
+
+-> How to Enable Emmet:
+In most editors like VS Code, Emmet is enabled by default. Start typing and press Tab to expand the shortcuts.
+
+- <div>: A generic container used to group content for styling or layout purposes.
+
+- class: An attribute used to assign one or more CSS classes to an element for styling or scripting purposes.
+
+- Id: An attribute used to assign a unique identifier to an element for styling, scripting, or linking purposes.
+
+- Convert a Block Element into an Inline Element:
+
+	- <div class="block-to-inline">This is now inline!</div>
+
+	- .block-to-inline {
+    	  display: inline;
+	  }
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+-> Day-7:
+
+-> what is table?
+A table in HTML is used to organize and display data in rows and columns, similar to a spreadsheet. It's created using specific tags and can include attributes to control its appearance and behavior.
+
+  
+-> tags in the table:
+= <table>: Defines the table.
+= <tr>: Defines a row within the table.
+= <th>: Defines a header cell (usually bold and centered).
+= <td>: Defines a data cell within the table.
+= <caption>: Provides a title or description for the table (optional).
+= <thead>: Groups header rows in the table (optional).
+= <tbody>: Groups the main body rows of the table (optional).
+= <tfoot>: Groups footer rows in the table (optional).
+
+-> common table attributes:
+- border: Adds a border around the table and cells
+- cellspacing: Sets space between table cells
+- cellpadding: Sets space inside each table cell
+- width: Specifies the width of the table or cells
+- height: Specifies the height of the table or cells
+- align: Aligns the table to left, center, or right
+- colspan: Merges multiple columns in a cell
+- rowspan: Merges multiple rows in a cell
+- style: Adds inline CSS for styling
+
+-> what is cell: A cell is the basic building block of a table in HTML.

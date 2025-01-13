@@ -1,0 +1,37 @@
+-> Day-8
+
+- An HTML form is a section of a web page that collects user input and sends it to a server for processing. Forms are used for tasks like logging in, searching, or submitting data.
+
+- tags in the html forms:
+	<form>: Defines the form and specifies the action (URL) and 			method (GET/POST).
+	<input>: Collects user input like text, passwords, or files.
+	<textarea>: Creates a multi-line text input.
+	<select>: Creates a dropdown list.
+	<option>: Defines options within a <select> dropdown.
+	<button>: Submits the form or performs actions.
+	<label>: Describes an input field, improving accessibility.
+	<fieldset>: Groups related fields together.
+
+- text: A single-line text field.
+Example: <input type="text">
+
+- password: Hides the text entered (used for passwords).
+Example: <input type="password">
+
+- email: Validates input as an email address.
+Example: <input type="email">
+
+- number: Accepts numeric values with optional min, max, and step attributes.
+Example: <input type="number" min="1" max="100">
+
+- file: Allows file uploads.
+Example: <input type="file">
+
+- submit: Submits the form.
+Example: <input type="submit">
+
+- checkbox: For selecting one or multiple options.
+Example: <input type="checkbox">
+
+- radio: For selecting one option from a group.
+Example: <input type="radio" name="gender" value="male">
