@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Job Application</h2>
+    <form>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name"> <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email"> <br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number"> <br><br>
+
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume"> <br><br>
+
+        <label for="experience">Experience(in years):</label>
+        <input type="number" id="experience" placeholder="Enter your experience"> <br><br>
+
+        <fieldset>
+        <legend>Skills</legend>
+
+        <input type="checkbox" name="skill1" value="HTML"> HTML <br>
+        <input type="checkbox" name="skill2" value="CSS"> CSS <br>
+        <input type="checkbox" name="skill3" value="JavaScript"> JavaScript <br>
+
+        </fieldset>
+        <br>
+
+        <label for="selection">Highest Education:</label>
+        <select name="selection" id="selection">
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+
+        </select> <br></br>
+
+        <label for="avalibility">avalibility:</label><br>
+        <input type="radio" name="avalibility" value="fulltime"> Full Time <br>
+        <input type="radio" name="avalibility" value="parttime"> Part Time <br>
+
+        <br>
+        <label for="comment">Comment</label><br><br>
+        <textarea name="comment" rows="10" cols="30"></textarea>
+
+        <br><br>
+
+        <label for="datepick">Choose Date</label>
+        <input type="date" id="datepick" name="datepick"> <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
