@@ -1,0 +1,16 @@
+h1
+{
+    color: red;
+    font-size: 30px;
+}
+
+input {
+    background-color: #4CAF50;
+    color: white;
+    text-shadow: #000000;
+    text-decoration: brown;
+    padding: 14px 20px;
+    margin: 50px 0;
+    cursor: pointer;
+    width: 100%;
+}

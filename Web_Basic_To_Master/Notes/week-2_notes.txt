@@ -93,3 +93,50 @@ Example: <input type="radio" name="gender" value="male">
 		src: URL of the embedded content.
 		width / height: Dimensions of the iframe.
 		allow: Permissions for features like autoplay (allow="autoplay").
+
+-> SEO 
+
+Search Engine Optimization (SEO) is the process of optimizing a website to improve its visibility and ranking on search engine result pages (SERPs). 
+The goal is to attract organic (non-paid) traffic by ensuring the content is relevant, user-friendly, and technically optimized.
+
+Key Components of SEO
+
+1. On-Page SEO
+	Focuses on optimizing elements within a website to make it search-engine friendly:
+
+		Keywords: Use relevant keywords in titles, meta descriptions, headers, and content.
+		Title Tag: A concise and descriptive title for the page. Example: <title>Learn SEO Basics for Beginners</title>
+		Meta Description: A short summary of the page content. Example: <meta name="description" content="A beginner-friendly guide to SEO optimization.">
+		Headings (H1-H6): Properly structure content with headers for readability.
+		Alt Text: Add descriptive text for images for accessibility and SEO. Example: <img src="seo-guide.jpg" alt="SEO Guide for Beginners">
+		Internal Linking: Link to other relevant pages on your website.
+		URL Structure: Use clean, keyword-rich URLs. Example: https://example.com/seo-guide
+
+2. Off-Page SEO
+	Involves activities outside your website to improve its authority and ranking:
+
+		Backlinks: Get links from reputable websites (link-building).
+		Social Media: Share content to increase visibility and traffic.
+		Guest Blogging: Write articles for other websites with links back to your site.
+
+3. Technical SEO
+	Optimizes the backend of the website to improve crawlability and performance:
+
+		Page Speed: Ensure fast loading times.
+		Mobile-Friendliness: Use responsive design for optimal performance on all devices.
+		XML Sitemap: Help search engines index your website. Example: https://example.com/sitemap.xml
+
+4. Content Optimization
+	Create high-quality, relevant, and engaging content.
+	Include keywords naturally, avoiding keyword stuffing.
+	Use multimedia like images, videos, and infographics.	
+
+
+1. <meta charset="UTF-8">
+Purpose: Specifies the character encoding for the HTML document.
+
+2. <meta name="viewport" content="width=device-width, initial-scale=1.0">
+Purpose: Controls the page's viewport settings for responsive design, making the page look good on mobile devices and desktops.
+
+3. <meta http-equiv="X-UA-Compatible" content="ie=edge">
+Purpose: This meta tag is used to specify how Internet Explorer (IE) should render the web page. It forces IE to use the latest available rendering engine rather than falling back to older compatibility modes.
