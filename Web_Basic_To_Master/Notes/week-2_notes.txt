@@ -35,3 +35,61 @@ Example: <input type="checkbox">
 
 - radio: For selecting one option from a group.
 Example: <input type="radio" name="gender" value="male">
+
+-> Media tags
+
+1. <img>
+	Embeds an image into a webpage.
+		Attributes:
+		src: Path to the image file (required).
+		alt: Alternative text for accessibility (recommended).
+		width / height: Sets the dimensions of the image.
+		loading: Controls lazy loading (lazy or eager).
+
+2. <audio>
+	Embeds audio content.
+		Attributes:
+		src: Path to the audio file (optional if <source> is used).
+		controls: Adds play, pause, and volume controls.
+		autoplay: Plays the audio automatically (use with caution).
+		loop: Repeats the audio.
+		muted: Starts audio muted.
+		preload: Hints how the browser should load the audio (auto, metadata, none).
+
+3. <video>
+	Embeds video content.
+		Attributes:
+		src: Path to the video file (optional if <source> is used).
+		controls: Adds video controls like play, pause, and volume.
+		autoplay: Plays the video automatically.
+		loop: Repeats the video.
+		muted: Starts the video muted.
+		poster: Specifies an image to display before the video starts.
+		width / height: Sets the dimensions of the video.
+		preload: Hints how the browser should load the video.
+
+4. <source>
+	Used inside <audio> or <video> tags to specify multiple file formats.
+		Attributes:
+		src: Path to the media file.
+		type: MIME type of the media file.
+
+5. <track>
+	Adds text tracks (like subtitles or captions) to <video> or <audio> elements.
+		Attributes:
+		src: Path to the track file.
+		kind: Type of track (subtitles, captions, descriptions, chapters, or metadata).
+		label: Title for the track.
+		srclang: Language of the track.
+		default: Specifies the default track.
+
+6. <picture>
+	Used to define multiple versions of an image for responsive design.
+	Works with <source> and <img>.
+
+7. <iframe>
+	Embeds external content like videos, maps, or entire web pages.
+		Attributes:
+		src: URL of the embedded content.
+		width / height: Dimensions of the iframe.
+		allow: Permissions for features like autoplay (allow="autoplay").
