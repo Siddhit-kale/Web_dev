@@ -1,0 +1,30 @@
+CSS -> Cascading style sheet
+- CSS, or Cascading Style Sheets, is like the "clothing" for a website. While HTML is the "skeleton" that structures the content (like headings, paragraphs, and images),
+CSS is what makes everything look good. It controls how the content is styled—like colors, fonts, spacing, and layout.
+In simple terms, CSS is what makes a plain, boring website beautiful and user-friendly.
+
+CSS depends on four major factors:
+
+1. Selectors – Target specific HTML elements.
+2. Properties – Define what to style (e.g., color, size).
+3. Values – Specify the settings for properties.
+4. Cascade/Specificity – Decide which styles apply when multiple rules conflict.
+
+-> There is three main ways to adds css to a webpage:
+
+1. Inline CSS:
+Style is added directly to an HTML element using the style attribute.
+
+ex: <h1 style="color: red;">Hello</h1>
+
+2. Internal CSS:
+Styles are written inside a <style> tag within the <head> of the HTML document.
+
+Ex: <style>
+  h1 { color: blue; }
+</style>
+
+3. External CSS:
+A separate CSS file is linked to the HTML using a <link> tag in the <head>.
+
+Ex: <link rel="stylesheet" href="styles.css">
