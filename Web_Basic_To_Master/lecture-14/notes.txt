@@ -1,0 +1,94 @@
+-> Font Properties
+
+font-family
+- Specifies the font(s) for an element.
+
+    Use a list of fonts as a fallback.
+    Syntax:
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size
+
+- Sets the size of the font.
+
+    Units: px, em, rem, %, vw, etc.
+    Syntax:
+    font-size: 16px;
+    font-weight
+
+- Defines the thickness of the text.
+
+    Values: normal, bold, lighter, bolder, or numeric (100 to 900).
+    Syntax:
+    font-weight: bold;
+    font-style
+
+- Specifies whether the text is italicized.
+
+    Values: normal, italic, oblique.
+    Syntax:
+    font-style: italic;
+    font-variant
+
+- Controls small-caps text.
+    
+    Values: normal, small-caps.
+    Syntax:
+    font-variant: small-caps;
+    line-height
+
+- Sets the spacing between lines of text.
+
+    Syntax:
+    line-height: 1.5;
+    letter-spacing
+
+- Adjusts the spacing between characters.
+
+    Syntax:
+    letter-spacing: 2px;
+    text-align
+
+- Aligns text within an element.
+
+    Values: left, right, center, justify.
+    Syntax:
+    text-align: center;
+    text-decoration
+
+- Adds decoration to text.
+
+    Values: none, underline, overline, line-through.
+    Syntax:
+    text-decoration: underline;
+    Color Properties
+    color
+
+- Sets the color of the text.
+
+    Accepts values: Named colors (red), HEX (#ff0000), RGB (rgb(255, 0, 0)), or HSL (hsl(0, 100%, 50%)).
+    Syntax:
+    color: blue;
+    background-color
+
+- Sets the background color of an element.
+    
+    Syntax:
+    background-color: #f0f0f0;
+    opacity
+
+- Adjusts the transparency of an element (0 = fully transparent, 1 = fully opaque).
+
+    Syntax:
+    opacity: 0.8;
+    border-color
+
+- Defines the color of the element's border.
+
+    Syntax:
+    border-color: green;
+    Gradient Colors
+
+- Use linear-gradient or radial-gradient for color transitions.
+
+    Syntax:
+    background: linear-gradient(to right, red, yellow);
