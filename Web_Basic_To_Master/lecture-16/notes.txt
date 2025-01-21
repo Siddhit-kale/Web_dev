@@ -1,0 +1,63 @@
+-> The CSS display property defines how an element is displayed on the webpage. It controls the layout behavior of the element.
+
+Common Values:
+
+1. block:
+
+The element takes up the full width available and starts on a new line.
+(e.g., <div>, <p>).
+
+2. inline:
+
+The element does not start on a new line and only takes up as much width as necessary.
+(e.g., <span>, <a>).
+
+3. inline-block:
+
+Combines inline behavior with block properties like setting width/height.
+
+4. none:
+
+Hides the element; it won’t occupy any space in the layout.
+
+5. flex:
+
+Makes the element a flex container for flexible, responsive layouts.
+
+6. grid:
+
+Turns the element into a grid container for arranging items in rows and columns.
+
+7. inline-flex / inline-grid:
+
+Same as flex/grid, but behaves like an inline element.
+
+
+-> block element:
+    -> div  
+        - 1) near line
+        - 2) width -> extra left -> extra right
+        - 3) custom width and height
+        - 4) custom margin and padding
+
+-> Box-sizing -> border-Box
+
+-> inline tages are span and a.
+
+-> difference between inline and block element:
+
+- 1. Block Elements
+    Take up the full width: A block element spans the entire width of its parent container.
+    Starts on a new line: Automatically breaks to a new line before and after it.
+    Supports width and height: You can set the width, height, margin, and padding explicitly.
+        Examples: <div>, <p>, <h1>–<h6>, <section>
+
+- 2. Inline Elements
+    Take up only as much width as needed: An inline element only takes up the space required by its content.
+    Does not start on a new line: Inline elements are placed next to each other if there is enough space.
+    No width or height support: You cannot directly set width or height; only horizontal padding and margins apply.
+        Examples: <span>, <a>, <strong>, <em>
+
+-> we can convert inline element to block element:
+    by using display:block.
+
