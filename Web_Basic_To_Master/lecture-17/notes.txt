@@ -1,0 +1,23 @@
+-> What is position property?
+-  The position property specifies the type of positioning method used for an element (static, relative, absolute, fixed, or sticky).
+
+-> it has five types:
+
+1) static:
+Default value. Elements render in order, as they appear in the document flow.
+
+2) absolute:
+The element is position relative to its first positioned ancestor element.
+
+3) fixed:
+the element is positioned relative to the browser window.
+
+4) relative:
+the element is positioned relative to tis normal position, so "left:20px" adds 
+20 pixels to the element's left position.
+
+5) sticky:
+The element is positioned based on the user's scroll position
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the 
+viewport - then it "sticks" in place (like position:fixed).
