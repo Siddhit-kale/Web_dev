@@ -1,0 +1,30 @@
+-> px (Pixels)
+
+    Absolute unit, fixed size.
+    Best for precise, unscalable designs.
+    Does not respond to screen size changes or user preferences.
+
+-> % (Percentage)
+
+    Relative to the parent element's size.
+    Great for responsive layouts, as it scales with the container.
+
+-> vw (Viewport Width)
+
+    1vw = 1% of the viewport's width.
+    Useful for dynamic designs based on the browser width.
+
+-> vh (Viewport Height)
+
+    1vh = 1% of the viewport's height.
+    Ideal for height-based layouts or full-screen sections.
+
+-> em
+
+    Relative to the font size of the parent element.
+    Cascades, so it can compound if nested.
+
+rem (Root em)
+
+    Relative to the font size of the root element (usually <html>).
+    More consistent than em as it doesn't compound.
