@@ -1,0 +1,18 @@
+-> Float:
+
+    It allows an element to "float" to the left or right of its container, letting text or other elements wrap around it.
+    Example: float: left; or float: right;.
+
+-> Clear:
+
+    Used to prevent elements from wrapping around a floated element.
+    Example: clear: both; ensures no element appears beside floated elements.
+
+-> Overflow:
+
+    Controls how content is displayed when it overflows the container.
+        Options:
+        visible (default): Content spills out.
+        hidden: Extra content is clipped.
+        scroll: Adds scrollbars.
+        auto: Adds scrollbars only if needed.
