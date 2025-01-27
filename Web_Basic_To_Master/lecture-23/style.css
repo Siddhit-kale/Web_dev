@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vw;
+    background-color: rgb(244, 227, 211);
+    border: 5px solid black;
+}
+
+.box{
+    width: 350px;
+    height: 80px;
+    background-color: blue;
+    border: 5px solid rgb(238, 255, 0);
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    /* animation-name: rightMovement;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    /* animation-timing-function: ease-out; */
+    /* animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: backwards; */
+
+    animation: 3s ease-in 1s infinite alternate none running rightMovement;
+}
+
+.box2{
+    width: 350px;
+    height: 80px;
+    background-color: blue;
+    border: 5px solid rgb(238, 255, 0);
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    align-items: center;
+    animation: 3s ease-out 1s infinite alternate none running leftMovement;
+
+}
+
+@keyframes leftMovement{
+    from{
+        top: 0;
+        left: 0;
+    }
+    to {
+        right: 0;
+        left: 1200px;
+    }
+}
+
+@keyframes rightMovement{
+    from {
+        top: 0;
+        left: 0;
+    }
+
+    to {
+        top: 0;
+        left: 1200px;
+
+    }
+}
