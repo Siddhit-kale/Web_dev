@@ -1,0 +1,36 @@
+Data Types in JavaScript
+JavaScript has two categories of data types:
+
+Primitive Data Types
+Non-Primitive (Reference) Data Types
+
+1. Primitive Data Types
+Primitive data types are immutable (cannot be changed) and stored by value in memory.
+
+Types of Primitive Data Types:
+1. String → Represents textual data.
+2. Number → Represents numeric data.
+3. Boolean → Represents true or false values.
+4. Null → Represents the absence of any object value.
+5. Undefined → Represents an uninitialized variable.
+6. Symbol → Represents a unique identifier.
+7. BigInt → Represents a whole number with a larger range than Number.
+
+2. Non-Primitive (Reference) Data Types
+Non-primitive data types are mutable (can be changed) and stored by reference in memory.
+
+Types of Non-Primitive Data Types:
+1. Array → Represents a collection of values.
+2. Object → Represents a collection of key-value pairs.
+3. Function → Represents a block of code that can be executed.
+4. Date → Represents a date and time.
+5. RegExp → Represents a regular expression.
+
+What is a Variable?
+A variable is a container for storing data in programming. In JavaScript, variables are used to store values like numbers, strings, objects, and more.
+
+Declaring Variables in JavaScript
+JavaScript provides three ways to declare variables:
+1. var (Old, avoid using)
+2. let (Modern, recommended)
+3. const (For constant values)
