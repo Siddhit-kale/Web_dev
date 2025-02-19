@@ -1,0 +1,54 @@
+operators are symbols that perform operations on variables and values. They can be classified into different types:
+
+    - Arithmetic Operators: Perform mathematical calculations like addition, subtraction, multiplication, etc.
+        let a = 10, b = 5;
+        console.log(a + b);  // Addition: 15
+        console.log(a - b);  // Subtraction: 5
+        console.log(a * b);  // Multiplication: 50
+        console.log(a / b);  // Division: 2
+        console.log(a % b);  // Modulus: 0
+        console.log(++a);    // Increment: 11
+        console.log(--b);    // Decrement: 4
+
+    - Comparison Operators: Compare two values and return a boolean result (true or false).
+        console.log(10 > 5);    // Greater than: true
+        console.log(10 < 5);    // Less than: false
+        console.log(10 == "10"); // Equal to (loose comparison): true
+        console.log(10 === "10"); // Strictly equal: false
+        console.log(10 != 5);   // Not equal: true
+        console.log(10 !== "10"); // Strictly not equal: true
+
+    - Logical Operators: Used to combine multiple conditions and return a boolean result.
+        let x = true, y = false;
+        console.log(x && y);  // AND: false
+        console.log(x || y);  // OR: true
+        console.log(!x);      // NOT: false
+
+    - Assignment Operators: Assign values to variables.
+        let num = 10;
+        num += 5;  // Equivalent to num = num + 5
+        console.log(num); // 15
+
+        num *= 2;  // Equivalent to num = num * 2
+        console.log(num); // 30
+
+    - Bitwise Operators: Perform operations on binary representations of numbers.
+        console.log(5 & 1); // AND: 1
+        console.log(5 | 1); // OR: 5
+        console.log(5 ^ 1); // XOR: 4
+        console.log(~5);    // NOT: -6
+        console.log(5 << 1); // Left shift: 10
+        console.log(5 >> 1); // Right shift: 2
+
+    - Ternary Operator: A shorthand for if-else conditions.
+        let age = 20;
+        let status = (age >= 18) ? "Adult" : "Minor";
+        console.log(status); // Output: "Adult"
+
+Conditions in JavaScript refer to statements that determine the flow of code execution based on whether an expression evaluates to true or false. 
+These are commonly used with if, else if, else, and switch statements to execute different blocks of code depending on a condition.
+
+    let score = 80;
+    if (score >= 50) {
+        console.log("You passed!");
+    }
