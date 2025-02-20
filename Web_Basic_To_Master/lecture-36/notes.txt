@@ -1,0 +1,87 @@
+loops are used to execute a block of code multiple times until a specified condition is met.
+
+Types of Loops in JavaScript
+    for Loop – Executes a block of code a specific number of times, typically using an index counter.
+        
+        for (let i = 0; i < 5; i++) {
+            console.log("Hello, JavaScript!");
+        }
+
+    while Loop – Runs the code as long as a given condition remains true.
+        
+        let count = 0;
+        while (count < 3) {
+            console.log("Count is:", count);
+            count++;
+        }
+
+    do...while Loop – Similar to while, but executes the code at least once before checking the condition.
+    let num = 1;
+        
+        do {
+            console.log("Number:", num);
+            num++;
+        } while (num <= 3);
+
+    for...in Loop – Iterates over the properties of an object.
+
+        let person = { name: "John", age: 25, city: "New York" };
+            for (let key in person) {
+            console.log(key, ":", person[key]);
+        }
+
+    for...of Loop – Iterates over iterable objects like arrays, strings, and maps.
+
+        let colors = ["Red", "Green", "Blue"];
+        for (let color of colors) {
+            console.log(color);
+        }
+
+
+Strings in JavaScript are sequences of characters enclosed in single, double, or backticks (template literals). 
+JavaScript provides built-in methods for manipulating strings, such as finding length, extracting substrings, converting cases, replacing characters, and splitting them into arrays.
+
+Types of String Functions in JavaScript
+    String Length – Determines the number of characters in a string.
+
+        let text = "JavaScript";
+        console.log(text.length); // Output: 10
+
+    String Concatenation – Combines two or more strings.
+
+        let firstName = "John";
+        let lastName = "Doe";
+        console.log(firstName + " " + lastName); // Output: John Doe
+
+    Substring Extraction – Extracts a portion of a string using methods like slice, substring, or substr.
+
+        let str = "Hello World";
+        console.log(str.slice(0, 5)); // Output: Hello
+        console.log(str.substring(6)); // Output: World
+
+    Case Conversion – Converts a string to uppercase (toUpperCase()) or lowercase (toLowerCase()).
+
+        let word = "JavaScript";
+        console.log(word.toUpperCase()); // Output: JAVASCRIPT
+        console.log(word.toLowerCase()); // Output: javascript
+
+    String Search – Finds characters or substrings within a string using methods like indexOf, lastIndexOf, and includes.
+
+        let sentence = "Welcome to JavaScript!";
+        console.log(sentence.includes("JavaScript")); // Output: true
+        console.log(sentence.indexOf("to")); // Output: 8
+
+    String Replacement – Replaces part of a string using replace or replaceAll.
+    
+        let message = "I love Python";
+        console.log(message.replace("Python", "JavaScript")); // Output: I love JavaScript
+
+    String Splitting – Divides a string into an array using split.
+    
+        let csv = "Apple,Banana,Cherry";
+        console.log(csv.split(",")); // Output: ["Apple", "Banana", "Cherry"]
+
+    Trimming – Removes whitespace from the start and end using trim, trimStart, or trimEnd.
+
+        let paddedText = "   Hello World   ";
+        console.log(paddedText.trim()); // Output: "Hello World"
