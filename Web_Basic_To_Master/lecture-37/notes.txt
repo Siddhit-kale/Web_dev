@@ -1,0 +1,68 @@
+1. Plain (Traditional) Functions
+These are the standard function declarations or expressions in JavaScript.
+
+Function Declaration
+This defines a named function that can be called anywhere in the script due to hoisting.
+    
+    function add(a, b) {
+        return a + b;
+    }
+    console.log(add(3, 5)); // Output: 8
+
+Function Expression
+This defines a function and assigns it to a variable. It is not hoisted.
+
+    const subtract = function(a, b) {
+        return a - b;
+    };
+    console.log(subtract(10, 4)); // Output: 6
+
+2. Arrow Functions
+Arrow functions provide a more concise syntax and handle the this keyword differently.
+
+    Basic Arrow Function:
+    
+        const multiply = (a, b) => {
+            return a * b;
+        };
+        console.log(multiply(4, 3)); // Output: 12
+
+    horter Arrow Function (Implicit Return)
+    If the function has only one expression, you can omit the {} and return.
+
+        const divide = (a, b) => a / b;
+        console.log(divide(10, 2)); // Output: 5
+
+    Arrow Function with One Parameter
+    For a single parameter, you can omit the parentheses.
+
+        const square = x => x * x;
+        console.log(square(5)); // Output: 25
+
+    Arrow Function Without Parameters
+    If there are no parameters, you must use empty parentheses.
+
+        const greet = () => "Hello, world!";
+        console.log(greet()); // Output: Hello, world!
+
+
+Traditional Function (this refers to the object)
+
+    const person = {
+        name: "Siddhit",
+        greet: function() {
+            console.log("Hello, " + this.name);
+        }
+    };
+    person.greet(); // Output: Hello, Siddhit
+
+
+Arrow Function (this does not refer to the object)
+
+    const personArrow = {
+        name: "Siddhit",
+        greet: () => {
+            console.log("Hello, " + this.name); // `this` refers to global scope (window in browsers)
+        }
+    };
+    personArrow.greet(); // Output: Hello, undefined    
