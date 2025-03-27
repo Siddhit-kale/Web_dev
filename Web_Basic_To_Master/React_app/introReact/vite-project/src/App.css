@@ -1,0 +1,13 @@
+h1{
+  font-size: 3rem;
+  font-weight: bold;
+  border-radius: 2rem;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1% 2rem rgb(255, 0, 0);
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
