@@ -5,5 +5,5 @@ import App from './App.jsx'
 import Navbar from './components/Navbar.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <Navbar></Navbar>
+  <App></App>
 )

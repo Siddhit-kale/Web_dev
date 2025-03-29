@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import './App.css'
+import UserCard from './components/Usercard'  // Corrected import
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1>My name is Kale Siddhit.</h1>
-      <h3>I am currenlty a student in charusat.</h3>
-    </>
+    <div className='container'>
+      <UserCard id='title' name='love rana'/>  
+      <UserCard id='img' name='Maharana Pratap'/>
+      <UserCard id='desc' name="Pritihviraj chauhan"/>
+    </div>
   )
 }
 
