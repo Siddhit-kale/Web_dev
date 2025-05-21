@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  flex-direction: column;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  border-color: black;
+  margin: 500px;
+}
+
+button {
+  flex-direction: row ;
+  display: flex;
+  justify-content: center;
+  border-color: black;
+}
