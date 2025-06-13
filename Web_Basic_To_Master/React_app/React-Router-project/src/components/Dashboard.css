@@ -1,0 +1,9 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}
